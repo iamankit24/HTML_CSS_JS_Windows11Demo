@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-image: url('images/bg.jpeg'); 
+    /* background-size: cover;  */
+    overflow: hidden;
+    height: 100vh;
+}
+.start{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:42.3%; /*34*/
+bottom:-3px; 
+top: 95.5%;
+}
+.search{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:45.3%; /*37*/
+bottom: -3px; 
+top: 95.5%;
+}
+.widget{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:48.1%; /*39.8*/
+bottom:-3px; 
+top: 95.5%;
+}
+.task{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:50.6%; /*42.3*/
+bottom:-3px; 
+top: 95.5%;
+}
+.fileexplorer{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto;  
+left:53.3%; /*45*/
+bottom:-3px; 
+top: 95.5%;
+
+}
+
+.taskbar{
+    background-color: #222222;
+    width: 100%;
+    position: absolute;
+    bottom: -3px;
+    display: flex;
+    /* z-index: 110; */
+    justify-content: center;
+}
+
+.uparrow{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:88%; /*14*/
+bottom:-1px; 
+top: 95.5%;
+}
+.keyboard{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:89.5%; /*11*/
+bottom:-1px; 
+top: 95.5%;
+}
+.wifi{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:91.5%; /*5*/
+bottom:-1px; 
+top: 95.5%;
+}
+.date{
+    position:absolute;
+    display : flex;
+    z-index: 100;
+/* margin-left: -720px;  */
+margin-left: auto; 
+left:95.5%; /*0*/
+bottom:-1px; 
+top: 95.5%;
+}
+
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.searchmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+
+.searchmenu img{
+    border-radius: 8px;
+}
+
+.uparrowmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: right;
+    right: 130px;
+    transition: all 0.3s ease-in; 
+}
+
+.uparrowmenu img{
+    border-radius: 8px;
+}
+
+.keyboardmenu {
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: right;
+    right: 20px;
+    transition: all 0.3s ease-in-out; 
+}
+.keyboardmenu img{
+    border-radius: 8px;
+}
+.wifimenu {
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -955px;
+    width: 100%;
+    text-align: right;
+    right: 20px;
+    transition: all 0.3s ease-in-out; 
+}
+.wifimenu img {
+    border-radius: 8px;
+}
+.datemenu {
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -955px;
+    width: 100%;
+    text-align: right;
+    right: 20px;
+    transition: all 0.3s ease-in-out; 
+}
+.datemenu img {
+    border-radius: 8px;
+}
+.searchmenu img{
+    border-radius: 8px;
+}
+.widgetmenu{
+    /* position: absolute; 
+    /* bottom: 0px; */
+    /* left: -655px; */
+    /* height: 100%; */
+    left:-655px;
+    position: relative;
+top: 50%;
+transform: translateY(-50%);
+    /* bottom= -655px;
+    width: 100%; */ 
+    /* text-align: center; */
+    transition: all 0.3s ease-in; 
+}
+
+.widgetmenu img{
+    border-radius: 8px;
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}  
+.chrome{
+    /* color: rgb(197, 48, 48); */
+    color: rgb(255 255 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* display : flex;
+    z-index: 100; */
+    /* justify-self: end; */
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.trash{
+    /* color: rgb(197, 48, 48); */
+    color: rgb(255 255 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* justify-self: end; */
+    position: absolute;
+    top: 2%;
+    left: 13.0%;
+}
